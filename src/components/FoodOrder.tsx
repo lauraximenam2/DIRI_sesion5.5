@@ -67,7 +67,7 @@ function FoodOrder(props: FoodOrderProps) {
       <div className="orderDetails">
         <img
           className="orderFoodImg"
-          src={`/images/${props.food.image}`}
+          src={`${import.meta.env.BASE_URL}images/${props.food.image}`}
           alt={props.food.name}
         />
         <div className="orderInfo">
